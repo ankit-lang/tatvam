@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700&display=swap');
+:root{--navy:#123b63;--teal:#176b5b;--gold:#2b718d;--ink:#1b2b39;--muted:#556976;--line:#ccd9df;--soft:#f1f7f6;--white:#fff;--max:1200px}
+body{font-family:'Inter',Arial,Helvetica,sans-serif;font-size:16px;line-height:1.58;color:var(--ink)}
+.topline{height:6px;background:linear-gradient(90deg,#176b5b 0 48%,#2b718d 48% 100%)}
+.nav{height:88px}.logo img{width:236px}.nav-links{gap:27px}
+.nav-links a{font-size:14px;font-weight:600;padding:32px 0 27px}
+.nav-links a:hover,.nav-links a.active{color:#123b63;border-color:#23856f}
+.nav-links .contact-link{background:#176b5b;color:#fff;border:1px solid #176b5b;padding:11px 17px}
+.nav-links .contact-link:hover{color:#fff;border-color:#123b63;background:#123b63}
+.hero{background:linear-gradient(110deg,#f4f8f8 0 70%,#e8f1f4 70%);border-bottom-color:#c5d6dc}
+.hero-grid{min-height:420px;padding:42px 0;gap:44px}
+.hero h1,.page-hero h1{font-family:'Manrope','Inter',sans-serif;font-size:clamp(38px,4.6vw,56px);line-height:1.09;letter-spacing:-.032em}
+.hero .intro{font-size:18px;line-height:1.6;margin:22px 0 26px}
+.hero-note{background:linear-gradient(155deg,#123b63,#0f4d61);padding:27px 29px;border-top:6px solid #23856f}
+.hero-note h2{font-family:'Manrope','Inter',sans-serif;font-size:18px}
+.button{background:#176b5b;border-color:#176b5b;font-size:14px;padding:12px 18px}.button:hover{background:#125448;border-color:#125448}
+.button.secondary{color:#123b63;border-color:#123b63;background:#fff}
+.kicker{font-size:12px;letter-spacing:.13em;color:#176b5b}
+.proof-grid div{padding:18px 22px}.proof-grid strong{font-family:'Manrope','Inter',sans-serif;color:#176b5b;font-size:19px}
+.section{padding:52px 0}.section.compact{padding:38px 0}.section-head{gap:32px;margin-bottom:28px}
+.section-head h2,.two-col h2{font-family:'Manrope','Inter',sans-serif;font-size:32px;line-height:1.22;color:#123b63}.section-head p{margin-top:3px}
+.service-row{grid-template-columns:52px 300px 1fr;gap:22px;padding:20px 0}
+.service-row h3,.detail-card h3,.profile-mini h3{font-family:'Manrope','Inter',sans-serif;color:#123b63}.service-row h3{font-size:19px}
+.service-row .num,.detail-card .label{color:#2b718d}.text-link{color:#176b5b;border-color:#176b5b}
+.section.soft{background:linear-gradient(180deg,#f3f8f7,#edf5f5)}
+.client-strip span{min-height:82px;color:#123b63;border-top:3px solid transparent}
+.client-strip span:nth-child(odd){border-top-color:#23856f}.client-strip span:nth-child(even){border-top-color:#2b718d}
+.profile-mini{padding:23px;border-top:4px solid #176b5b}.section.dark{background:linear-gradient(120deg,#123b63,#124d59)}
+.page-hero{padding:39px 0;background:linear-gradient(105deg,#f1f6f7,#e9f3f0)}
+.page-hero h1{font-size:clamp(36px,4.2vw,48px)}.page-hero p{font-size:17px;margin-top:14px}
+.service-block{padding:28px 0;grid-template-columns:290px 1fr;gap:42px}.service-block h2,.profile-row h2,.location h2{font-family:'Manrope','Inter',sans-serif;color:#123b63}
+.service-block h2{font-size:23px}.detail-card{padding:24px;min-height:230px}
+.profile-row{gap:45px;padding:29px 0}.profile-row h2{font-size:25px}.profile-row .role{color:#176b5b}
+.expertise span{background:#e8f2f0;color:#17594d}.industry-grid span{border-top:3px solid #dfe9ec}.credential-table td:first-child{color:#123b63}
+.location{border-top:5px solid #2b718d}.location:nth-child(2){border-top-color:#23856f}.location-copy{padding:22px 25px}
+.contact-panel{background:linear-gradient(135deg,#123b63,#145f60);padding:34px}.notice{background:#eef6f3;border-left-color:#23856f;color:#3b5a53}
+.site-footer{background:#0e2f4a;border-top:6px solid #23856f}.footer-grid{padding:32px 0}
+.footer-grid img{width:212px;filter:none;opacity:1;background:#fff;padding:9px 13px}.copyright{padding:14px 0}
+@media(max-width:950px){.nav{height:80px}.logo img{width:210px}.nav-links{top:86px}.nav-links a{padding:10px 0}.hero-grid{padding:36px 0}.section{padding:46px 0}.service-block,.profile-row{gap:14px}}
+@media(max-width:620px){.nav{height:72px}.logo img{width:184px}.nav-links{top:78px}.hero-grid{padding:32px 0}.hero h1,.page-hero h1{font-size:35px}.section{padding:39px 0}.section-head h2,.two-col h2{font-size:27px}.service-row{grid-template-columns:35px 1fr;padding:18px 0}.footer-grid img{width:190px}}

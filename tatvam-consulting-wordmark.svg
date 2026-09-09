@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="170" viewBox="0 0 760 170" role="img" aria-labelledby="title desc">
+  <title id="title">Tatvam Consulting</title>
+  <desc id="desc">Minimal professional wordmark for Tatvam Consulting</desc>
+  <rect width="760" height="170" fill="none"/>
+  <text x="8" y="99" font-family="Arial, Helvetica, sans-serif" font-size="88" font-weight="700" letter-spacing="13"><tspan fill="#143d59">TAT</tspan><tspan fill="#147267">VAM</tspan></text>
+  <path d="M10 126H120" stroke="#147267" stroke-width="5"/>
+  <path d="M120 126H175" stroke="#2d6f95" stroke-width="5"/>
+  <text x="201" y="137" fill="#244b68" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="600" letter-spacing="9">CONSULTING</text>
+</svg>
